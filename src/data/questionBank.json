@@ -1,0 +1,115 @@
+{
+  "iq": [
+    {
+      "id": "iq-num-001",
+      "type": "number_series",
+      "prompt": "Choose the next number in the sequence: 2, 6, 12, 20, 30, ?",
+      "choices": [
+        "40",
+        "41",
+        "42",
+        "44"
+      ],
+      "answerIndex": 0,
+      "explanation": "The differences are +4, +6, +8, +10, so the next difference is +12: 30 + 12 = 42. Wait: check: 2->6 (+4), 6->12 (+6), 12->20 (+8), 20->30 (+10) => next +12 => 42. Therefore the correct choice is 42."
+    },
+    {
+      "id": "iq-log-001",
+      "type": "logical_reasoning",
+      "prompt": "All managers are employees. Some employees are trainees. Which statement must be true?",
+      "choices": [
+        "Some managers are trainees.",
+        "Some trainees are managers.",
+        "All managers are employees.",
+        "No trainees are employees."
+      ],
+      "answerIndex": 2,
+      "explanation": "This is explicitly given: all managers are employees. The other options are not guaranteed."
+    },
+    {
+      "id": "iq-ver-001",
+      "type": "verbal_analogy",
+      "prompt": "Analogy: \"Blueprint\" is to \"Building\" as \"Recipe\" is to ____.",
+      "choices": [
+        "Kitchen",
+        "Chef",
+        "Meal",
+        "Grocery"
+      ],
+      "answerIndex": 2,
+      "explanation": "A blueprint guides the creation of a building; a recipe guides the creation of a meal."
+    },
+    {
+      "id": "iq-fig-001",
+      "type": "figure_reasoning",
+      "prompt": "Which option completes the pattern? (Select the answer that best matches the rule.)",
+      "figure": "svg:pattern1",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answerIndex": 1,
+      "explanation": "In this demo item, the rule is rotation by 90\u00b0 each step; option B matches the next rotation."
+    }
+  ],
+  "english": [
+    {
+      "id": "en-gram-001",
+      "type": "grammar",
+      "prompt": "Choose the correct sentence.",
+      "choices": [
+        "She don't like working late.",
+        "She doesn't like working late.",
+        "She doesn't likes working late.",
+        "She don't likes working late."
+      ],
+      "answerIndex": 1,
+      "explanation": "Third-person singular present uses 'doesn't + base verb': doesn't like."
+    },
+    {
+      "id": "en-read-001",
+      "type": "reading",
+      "prompt": "Read: \"The company expanded its production capacity to meet rising demand.\" What does 'capacity' most closely mean here?",
+      "choices": [
+        "Ability",
+        "Quality",
+        "Delay",
+        "Expense"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Capacity' means the ability/maximum output the company can produce."
+    }
+  ],
+  "aptitude": [
+    {
+      "id": "ap-001",
+      "type": "likert",
+      "prompt": "I prefer to plan my tasks in advance rather than decide on the spot.",
+      "choices": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "answerIndex": 4,
+      "explanation": "No right/wrong. This item contributes to your profile only."
+    },
+    {
+      "id": "ap-002",
+      "type": "likert",
+      "prompt": "When I face a problem, I collect data before proposing a solution.",
+      "choices": [
+        "Strongly Disagree",
+        "Disagree",
+        "Neutral",
+        "Agree",
+        "Strongly Agree"
+      ],
+      "answerIndex": 4,
+      "explanation": "No right/wrong. This item contributes to your profile only."
+    }
+  ]
+}
